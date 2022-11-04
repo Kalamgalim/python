@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, redirect, request
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import UserMixin, login_user, LoginManager
+from flask_login import UserMixin, login_user, LoginManager, login_required
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length
@@ -31,7 +31,7 @@ app.config['SECRET_KEY'] = 'secretkey'
 
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = "login"
+login_manager.login_view = 'index'
 
 
 @login_manager.user_loader
@@ -74,6 +74,7 @@ class solana(db.Model):
 
 
 @app.route('/nft_page', methods=['POST', 'GET'])
+@login_required
 def nft_page():
     if request.method == "POST":
         returnValue=""
