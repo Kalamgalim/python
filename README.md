@@ -2,7 +2,25 @@
 
 The NFT aggregator helps users find information about NFTs using Solana's blockchain service (https://solanart.io/). In order to get the information, the user must register.
 
-## How to use
+### Requirments
+* Flask==2.2.2
+* Flask-SQLAlchemy==3.0.2
+* python==3.10
+* Wtforms
+
+### Installation
+
+1)You need to install Python & IDE(VS Code)
+
+2)Install pip (Python -m pip install)
+
+3)Install Flask,flask_sqlalchemy,wtforms,flask_bcrypt,requests,psycopg2 via pip (pip install Flask)
+
+4)Install/create db via attached file
+
+5)Execute programm
+
+### How to use
 1)Open an ip in URL of your browser
 
 2)Register an account, if you don't have one yet
@@ -29,22 +47,3 @@ Searching page
 
 About 
 ![image](https://user-images.githubusercontent.com/97554402/199933673-e98afc26-a080-4053-a34c-25b96c80f7f7.png)
-
-### Installation
-
-1)You need to install Python & IDE(VS Code)
-
-2)Install pip (Python -m pip install)
-
-3)Install Flask,flask_sqlalchemy,wtforms,flask_bcrypt,requests,psycopg2 via pip (pip install Flask)
-
-4)Install/create db via attached file
-
-5)Execute programm
-
-#requirments
-* Flask==2.2.2
-* Flask-SQLAlchemy==3.0.2
-* python==3.10
-* Wtforms
-
