@@ -7,13 +7,13 @@ The NFT aggregator helps users find information about NFTs using Solana's blockc
 
 2)Register an account, if you don't have one yet
 
-3) Login into account
+3)Login into account
 
 4)Copy nft address of any nft from solana
 
 5)Click Find
 
-6) Enjoy your metadata
+6)Enjoy your metadata
 
 ![image](https://user-images.githubusercontent.com/97554402/199928696-d2ba6430-3816-495c-b3df-400870448e85.png)
 This website is run using VisualStudio.
