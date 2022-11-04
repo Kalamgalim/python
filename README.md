@@ -19,8 +19,10 @@ Searching page
 About 
 ![image](https://user-images.githubusercontent.com/97554402/199933673-e98afc26-a080-4053-a34c-25b96c80f7f7.png)
 
-#How to install
+### How to install
 In order to test the script please run the following commands:
+
+```sh
 # install flask
 pip install flask
 # install SQL-Alchemy
@@ -31,7 +33,7 @@ pip install flask-login
 pip install -U Flask-WTF
 # install flask-bcrypt
 pip install flask-bcrypt
-
+```
 
 #requirments
 * Flask==2.2.2
