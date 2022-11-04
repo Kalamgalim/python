@@ -1,8 +1,8 @@
-#Nft Aggregator
+# Nft Aggregator
 
 The NFT aggregator helps users find information about NFTs using Solana's blockchain service (https://solanart.io/). In order to get the information, the user must register.
 
-#how to use
+## How to use
 
 ![image](https://user-images.githubusercontent.com/97554402/199928696-d2ba6430-3816-495c-b3df-400870448e85.png)
 This website is run using VisualStudio.
@@ -19,7 +19,7 @@ Searching page
 About 
 ![image](https://user-images.githubusercontent.com/97554402/199933673-e98afc26-a080-4053-a34c-25b96c80f7f7.png)
 
-### How to install
+### Installation
 In order to test the script please run the following commands:
 
 ```sh
